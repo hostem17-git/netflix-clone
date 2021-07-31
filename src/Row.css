@@ -1,0 +1,22 @@
+.row {
+  margin-left: 20px;
+}
+.rowPosters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.rowPosters::-webkit-scrollbar {
+  display: none;
+}
+
+.rowPoster {
+  object-fit: contain;
+  max-height: 100px;
+  width: 100%;
+  margin-right: 10px;
+}
+.rowPosterLarge {
+  max-height: 250px;
+}
