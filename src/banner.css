@@ -40,6 +40,7 @@
 .bannerBottomFade {
   display: inline-block;
   width: 100%;
+  height: 7rem;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,

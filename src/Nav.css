@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  height: 50px;
+  display: inline-block;
+  width: 100%;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 1s;
+}
+
+.navbar-black {
+  background-color: #111;
+}
+
+.navbar-logo {
+  position: fixed;
+  object-fit: contain;
+  width: 80px;
+  left: 20px;
+  top: 15px;
+}
+
+.navbar-avatar {
+  object-fit: contain;
+  width: 30px;
+  position: fixed;
+  right: 1%;
+  top: 15px;
+}
