@@ -18,7 +18,6 @@ function Row(props) {
         fetchData();
     }, [props.fetchURL]) // ************************ added  movies dependency
 
-    console.log(movies)
 
     return (
         <div className="row">
