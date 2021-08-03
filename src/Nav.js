@@ -7,14 +7,18 @@ function Nav() {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 75) {
                 setScrolled(true);
             } else {
                 setScrolled(false);
             }
         });
         return () => {
-            window.removeEventListener("scroll");
+            try { window.removeEventListener("scroll"); }
+            catch
+            {
+
+            }
         }
     }, []);
 
